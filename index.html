@@ -1,12 +1,49 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Мой сайт</title>
+    <meta charset="UTF-8">
+    <title>Независимая Соня</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1e1e2f, #4a148c);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            font-size: 1em;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+    </style>
 </head>
 <body>
-  <h1>Привет, Серёж!</h1>
-  <p>Это тестовая страница на GitHub Pages.</p>
+    <h1>Привет, Серёж!</h1>
+    <p>Это первый экран проекта "Независимая Соня"</p>
+    <button onclick="alert('Скоро я буду жить у тебя на телефоне!')">Запустить</button>
 </body>
 </html>
